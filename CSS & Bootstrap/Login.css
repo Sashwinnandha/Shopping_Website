@@ -1,0 +1,57 @@
+.nav-purple{
+    background-color: rgb(144, 88, 190);
+}
+
+footer{
+    background-color: rgb(220, 182, 250);
+}
+
+.navbrand-font{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-header{
+    background-color:  rgb(144, 88, 190);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(144, 88, 190);
+}
+
+.bg-violet{
+    background-color: rgb(144, 88, 190);
+}
+
+.text-violet{
+    color: rgb(144, 88, 190);
+    font-weight: bold;
+}
+
+.card{
+    border: 3px solid rgb(144, 88, 190);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.5);
+}
+
+body{
+    background-image: url(/Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+blockquote{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#showPass:checked{
+    accent-color: rgb(144, 88, 190);
+}
+

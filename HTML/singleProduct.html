@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Women</title>
+    <link rel="icon" href="/Images/logo2.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/CSS & Bootstrap/dresses.css">
+    <script src="/JS/singleProduct.js"></script>
+</head>
+<body>
+    <nav class="nav navbar navbar-light bg-white navbar-expand-md nav-purple shadow sticky-top">
+        <img src="/Images/Logo.png" class="rounded mx-4" alt="Logo" style="height: 50px; width: 50px;"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Home" title="toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Home">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item mr-5"><a href="#"><i class="bi bi-heart text-dark" style="font-size: 30px;" title="Wishlist"></i></a></li>
+                <li class="nav-item mr-5"><a href="#"><i class="bi bi-cart text-dark" style="font-size: 30px;" title="Cart"></i></a></li>
+                <li class="nav-item mr-5"><a href="profile.html"><i class="bi bi-person-circle text-dark" style="font-size: 30px;" title="Profile"></i></a></li>
+                <li class="nav-item mr-1" id="logout"><i class="bi bi-box-arrow-right text-dark" style="font-size: 30px;" title="Logout"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <ol class="breadcrumb bg-white">
+            <li class="breadcrumb-item">
+                <a href="Home.html" class="breadcrumb-link">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="western.html" class="breadcrumb-link">Western Wear</a>
+            </li>
+            <li class="breadcrumb-item" id="product">
+                
+            </li>
+        </ol>
+        <div class="row">
+            <div class="col-6">
+                <div class="carousel slide" data-ride="carousel" id="slider">
+                    <div class="carousel-inner">
+                    </div>
+                    <a href="#slider" class="carousel-control-prev arrows" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#slider" class="carousel-control-next arrows" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6  d-flex flex-column justify-content-around ">
+                <div class="display-4" style="color: #866532;" id="brand"></div>
+                <div id="itemName"></div>
+                <div>
+                    <div id="rating" class="d-inline "></div>
+                    <div id="reviews" class="d-inline"></div>
+                </div>
+                <div id="finalmrp" style="font-size: 1.5rem;"></div>
+                <div id="mrp"></div>
+                <div class="container">
+                    <div class="row border">
+                        <div class="col d-flex justify-content-around p-0">
+                            <div class="border-right-0 p-2 text-center d-flex flex-column justify-content-around" style="color: #866532;">Use Code <b>FREEDEL</b> <span class="text-info">T&C</span>
+                        </div>
+                        <div class="flex-fill">
+                            <div class="border-left-0 p-2" style="background-color: antiquewhite;">Get it for <span id="finalmrp2" class="text-success"></span></div>
+                            <div class="border-left-0 p-2" >Free Shipping on ₹799 and above. Just for you.</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: antiquewhite;" class="p-2">
+                    <i class="bi bi-geo-alt"></i> Select your location to know your estimated delivery date.
+                </div>
+                <button type="button" style="background-color: #866532; color: white;" class=" btn"><i class="bi bi-bag"></i> ADD TO BAG</button>
+                <button type="button" style="color: #866532; background-color: white; border: 2px solid #866532;" class=" btn"><i class="bi bi-heart"></i> SAVE TO WISHLIST</button>
+                <div class="text-center"> HANDPICKED STYLES | ASSURED QUALITY</div>
+                <ul><b style="color: #406786;">Product Details</b>
+                    <li>Package contains: 1 <span id="category"></span></li>
+                    <li>Machine wash</li>
+                    <li>Rayon</li>
+                    <li>No Darts</li>
+                    <li>Product Code: <span id="productId"></span></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <nav>
+                    <div class="nav nav-tabs mt-5">
+                        <button type="button" role="tab" class="nav-link active border-bottom-0" id="nav-item-returntab" data-toggle="tab" data-target="#nav-item-return">Return</button>
+                        <button type="button" role="tab" class="nav-link  border-bottom-0" id="nav-item-promisetab" data-toggle="tab" data-target="#nav-item-promise">Promise</button>
+                    </div>
+                </nav>
+                <div class="tab-content mb-5">
+                    <div class="tab-pane show fade active border p-2" id="nav-item-return">Easy 15 days return and exchange. Return Policies may vary based on products and promotions. For full details on our Returns Policies.</div>
+                    <div class="tab-pane fade border p-2" id="nav-item-promise">We assure the authenticity and quality of our products.</div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="brand-feature" class="text-justify">
+            Buy Women's Western Wear Online
+
+Give your wardrobe a makeover this season by shopping the latest trends in women’s wear on Fashion Women! The online fashion store for the modern day woman who likes to flaunt her own style, Fashion Women has a wide range of clothing and accessories for women in a plethora of styles. Check out our women’s western wear online to get the trendiest clothing from the best International and Indian brands! Wherever you need to be, Fashion Women has the perfect outfit for you in its collection. If formal wear is what you are looking at, check out Fashion Women’s range of formal shirts and smart tops. Go for a simple and classy look with solids or shake things up a little with abstract prints. Check out detailing like concealed plackets, pin tucks, tie-up collars and others to add a dash of style to your corporate chic avatars. To team with your shirts, we have smart formal trousers and formal skirts in different styles and fits. We even have chic formal dresses that you can carry off at work. To complete your looks, check out the stylish blazers and jackets in our collection! There, you are all set to rock the Monday morning look.
+
+If casual wear is what brought you here today, you are in for a treat. We have every kind and sort available in women’s casual wear at Fashion Women. We have T-shirts and tops for women that are in tune with the latest trends in fashion. Graphic prints, off-shoulder styles, crop effects and more… you’ll love our styles. We have women’s jeans in every style that you can imagine – distressed, acid washed, super skinny, tapered… all of them are here. If you are looking for trousers, check out the denim trousers, palazzos, ankle length trousers, culottes, dhoti pants and more here! We have leggings and jeggings too to keep you comfy and in style.
+
+If you want to stand out from the crowd at that special event, we have an interesting collection for you. Browse through lace tops, fit & flare dresses, cute playsuits, elegant turtlenecks, fabulous jackets and more to get heads turning.
+
+If you want to sweat it out at the gym, we have a range of active wear so you can do that in style. Tees, tops, track pants, shorts and other gym wear for women can be found on Fashion Women. We even have a great range of swimsuits to hit the water with!
+
+We have flirty skirts and chic shorts, cute jumpsuits and sassy dresses, charming cardigans and laidback hoodies, go get looking. To wrap it up, we have cool jackets & coats and shrugs too!
+
+Pleasantly surprised at all that we have? Wait till you hear about our brands! Kira Plastinina, Only, Levi’s, MDS, Puma, Vero Moda and tons of other cool international and Indian brands are available for your choosing. Our very own brand, Fashion Women, too offers some of the season’s trendiest clothes. So go ahead and get picking the perfect fits for your wardrobe!
+        </div>
+        <hr>
+        <div class="d-flex justify-content-around mb-4">
+            <div>
+                <img src="/Images/Exchange.png" alt="exchange" class="img-fluid d-block">
+                <div>EASY EXCHANGE</div>
+            </div>
+            <div>
+                <img src="/Images/Handpicked.png" alt="handpicked" class="img-fluid d-block">
+                <div>100% HANDPICKED</div>
+            </div>
+            <div>
+                <img src="/Images/Quality2.png" alt="Quality" class="img-fluid d-block">
+                <div>ASSURED QUALITY</div>
+            </div>
+        </div>
+        <hr>
+        <div style="background-color: #2c4152;">
+            <img src="/Images/Payments.png" alt="payments" class="img-fluid d-block" >
+        </div>
+    </div>
+</body>
+</html>

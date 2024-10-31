@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Women</title>
+    <link rel="icon" href="/Images/logo2.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/JS/landing.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/CSS & Bootstrap/landing.css">
+</head>
+<body>
+    <nav class="nav navbar navbar-light bg-white navbar-expand-md nav-purple shadow fixed-top ">
+        <img src="/Images/Logo.png" class="rounded mx-4" alt="Logo" style="height: 50px; width: 50px;"> 
+        <li class="nav-item user align-self-center"style="font-size: 20px;"></li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Home">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Home">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item mr-5 align-self-center ">
+                    <input type="search" placeholder=" Search...." id="search" autocomplete="off">
+                    <ul style="position:absolute; list-style: none;" id="list">
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>PHP</li>
+                        <li>Node.Js</li>
+                        <li>JS</li>
+                    </ul>
+                </li>
+                <li class="nav-item mr-5"><a href="#"><i class="bi bi-heart text-dark" style="font-size: 30px;" title="Wishlist"></i></a></li>
+                <li class="nav-item mr-5"><a href="#"><i class="bi bi-cart text-dark" style="font-size: 30px;" title="Cart"></i></a></li>
+                <li class="nav-item mr-5"><a href="#"><i class="bi bi-person-circle text-dark" style="font-size: 30px;" title="Profile"></i></a></li>
+                <li class="nav-item mr-1" id="logout"><i class="bi bi-box-arrow-right text-dark" style="font-size: 30px;" title="Logout"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="container pb-5" style="position: relative; top: 100px;">
+            <div class="carousel slide" data-ride="carousel" id="slider">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#slider" data-slide-to="0"></li>
+                    <li data-target="#slider" data-slide-to="1"></li>
+                    <li data-target="#slider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" alt="First Slide" src="/Images/carousel1.jpg">
+                        <div class="carousel-caption">
+                            <h3 class="text-black-50">Arrival Sales 2030</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Images/carousel2.jpg" alt="Second Slide" class="d-block img-fluid">
+                        <div class="carousel-caption text-right">
+                            <h4 class="text-black-50">Fall-Winter Collections 2030</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Images/carousel3.jpg" alt="Third Slide" class="d-block img-fluid">
+                        <div class="carousel-caption">
+                            <h1>New Amazing stuff is here!</h1>
+                            <h5 class="text-secondary">Shop today and get 25% discount! </h5>
+                        </div>
+                    </div>
+                </div>
+                <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#slider" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <div class="display-2 text-center mt-3 text-secondary">Our Collections</div>
+            <div class="card-deck my-5">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img src="/Images/Sale.jpg" alt="Offer" class="img-fluid">
+                    </div>
+                </div>   
+                <div class="card">
+                  <div class="card-inner">
+                    <div class="card-front">
+                        <img src="/Images/Western.jpg" alt="Western wear" class="img-fluid card-img-top">
+                        <div class="card-body text-center">Western Wear</div>
+                   </div>
+                   <div class="card-back d-flex flex-column justify-content-center p-3">
+                    <p>Purchase Western wear Collections with 25% offer</p>
+                    <a href="western.html" class="badge badge-primary badge-pill stretched-link p-2">Shop Western Wear</a>
+                   </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="/Images/Ethnic.jpg" alt="Ethnic wear" class="img-fluid card-img-top">
+                            <div class="card-body text-center">Ethnic Wear</div>
+                        </div>
+                        <div class="card-back  d-flex flex-column justify-content-center p-3" >
+                            <p>Purchase Ethnic wear Collections with 50% offer</p>
+                            <a href="#" class="badge badge-primary badge-pill stretched-link p-2">Shop Ethnic Wear</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="/Images/footwear.jpg" alt="Foot wear" class="img-fluid card-img-top">
+                            <div class="card-body text-center">Foot Wear</div>
+                        </div>
+                        <div class="card-back  d-flex flex-column justify-content-center p-3" >
+                            <p>Purchase Foot wear Collections with 15% offer</p>
+                            <a href="#" class="badge badge-primary badge-pill stretched-link p-2">Shop Foot Wear</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="/Images/Accesseries.jpg" alt="Accessories" class="img-fluid card-img-top">
+                            <div class="card-body text-center">Accessories</div>
+                        </div>
+                        <div class="card-back  d-flex flex-column justify-content-center p-3" >
+                            <p>Purchase Accessories with 25% offer</p>
+                            <a href="#" class="badge badge-primary badge-pill stretched-link p-2">Shop Accessories</a>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.nav-purple{
+    background-color: rgb(144, 88, 190);
+}
+
+footer{
+    background-color: rgb(220, 182, 250);
+}
+
+.navbrand-font{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-header{
+    background-color:  rgb(144, 88, 190);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: rgb(144, 88, 190);
+}
+
+.text-violet{
+    color: rgb(144, 88, 190);
+}
+
+.bg-image{
+    background-image: url(/Images/homec2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.display-4{
+    font-size:30px;
+}
+
+.location{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.lists-data{
+    font-size: 12px;
+}
+
+@media screen and (min-width:1200px) {
+    .lists-data{
+        font-size: 28px;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .location{
+        font-size: 20px;
+    }
+    .display-4{
+        font-size:24px;
+    }
+    .display-1{
+        font-size:40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .services .stores{
+        font-size: 10px;
+    }
+    .lists-nopadding{
+        padding: 0px;
+    }
+    .display-4{
+        font-size:12px;
+    }
+    .display-1{
+        font-size:20px;
+    }
+}
+

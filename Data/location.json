@@ -1,0 +1,142 @@
+{
+    "stores":{
+        "T.Nagar":{
+        "Address":"19-A, West Usman Road, Opp. to Pangal park, T.Nagar, Chennai - 600010",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.617597958228!2d80.23086430434525!3d13.04175686628212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526655a5da2371%3A0x4954f49743f04af0!2sT.%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703595208699!5m2!1sen!2sin"
+    },
+    "Anna Nagar":{
+        "Address":"38-204/C,Anna nagar 4th Annnex, Opp.to VR Mall, Chennai - 620132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15544.839160433954!2d80.19859537478156!3d13.085886674911762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703595251171!5m2!1sen!2sin"
+    },
+    "Sholinganallur":{
+        "Address":"201X, COMMERICAL COMPLEX, Near to Accenture signal,Sholinganallur, Chennai - 610231",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31113.116088676637!2d80.21481184013675!3d12.89874943330783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525b79de7f381b%3A0xffbb2dd48afe3f1b!2sSholinganallur%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703588559781!5m2!1sen!2sin"
+    },
+    "Thousand Lights":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Thousand Lights, Chennai - 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15546.451163193839!2d80.24226877283395!3d13.060301145359636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52666ab9f01f69%3A0x4a84719721211f35!2sThousand%20Lights%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703598344124!5m2!1sen!2sin"
+    },
+    "Chrompet":{
+        "Address":"981X, G.S.T Road, Opp.to Saravana stores, Chrompet, Chennai - 6000044",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31106.77651672723!2d80.12564047156333!3d12.949629537879952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fb1cef75f81%3A0xe2956fefeaa0fa80!2sChromepet%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703601467987!5m2!1sen!2sin"
+    },
+    "Peelamedu":{
+        "Address":"201X, COMMERICAL COMPLEX, Near to Accenture signal,Peelamedu, Coimbatore - 610231",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31328.432041962416!2d76.99496045967433!3d11.034575104310283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85824c7646fcb%3A0x3cbee12a8c82fcb9!2sPeelamedu%2C%20Maheshwari%20Nagar%2C%20Coimbatore%2C%20Tamil%20Nadu%20641004!5e0!3m2!1sen!2sin!4v1703606373004!5m2!1sen!2sin"
+    },
+    "Gandhipuram":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Gandhipuram, Coimbatore - 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31330.24233550155!2d76.96740749999998!3d11.01758430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85855910aed83%3A0x80875de5cd370a9d!2sGandhipuram%2C%20Tamil%20Nadu%20641012!5e0!3m2!1sen!2sin!4v1703606428755!5m2!1sen!2sin"
+    },
+    "Goripalayam":{
+        "Address":"201X, COMMERICAL COMPLEX, Near to Accenture signal, Goripalayam, Madurai - 610231",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62880.86624901286!2d78.07619300526576!3d9.929449266756876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c594666f25af%3A0x2bdb91a2ac081cde!2sGoripalayam%2C%20Tamil%20Nadu%20625002!5e0!3m2!1sen!2sin!4v1703602023667!5m2!1sen!2sin"
+    },
+    "Thillai Nagar":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Thillai Nagar, Trichy- 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18640.69081070595!2d78.66882860453305!3d10.832534053065427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf5bd457044ff%3A0x654cd608dde1813!2sWoraiyur%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620003!5e0!3m2!1sen!2sin!4v1703602101876!5m2!1sen!2sin"
+    },
+    "Ernakulam":{
+        "Address":"38-204/C,Anna nagar 4th Annnex, Opp.to VR Mall, Ernakulam, Kerala - 620132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d149526.12302512443!2d76.26001315415277!3d9.996245915721858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d08f976f3a9%3A0xe9cdb444f06ed454!2sErnakulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703604276712!5m2!1sen!2sin"
+    },"Kakkanad":{
+        "Address":"201X, COMMERICAL COMPLEX, Near to Accenture signal,Kakkanad, Kerala - 610231",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125731.1282555716!2d76.20319156839521!3d10.008783509469325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703604407503!5m2!1sen!2sin"
+    },"Thirisur":{
+        "Address":"981X, G.S.T Road, Opp.to Saravana stores, Thirusur, Kerala - 6000044",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31382.48023579097!2d76.17722917019749!3d10.515623921754303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ee482404d707%3A0xa64a9e32a40e09d8!2sVeliyannur%2C%20Thrissur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703604545758!5m2!1sen!2sin"
+    },"Trivandrum":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Trivandrum, Kerala - 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15783.862921078562!2d76.94195227150307!3d8.502708314059229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbbeae2acd9b%3A0x4d6c81bc718417e2!2sPalayam%2C%20Thiruvananthapuram%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703604587487!5m2!1sen!2sin"
+    },"Paschim Vihar":{
+        "Address":"201X, COMMERICAL COMPLEX, Near to Accenture signal, Paschim Vihar ,Delhi - 610231",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56009.63211548749!2d77.07886102114492!3d28.671633195442585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04709a55ca61%3A0x733c78dcf34281ce!2sPaschim%20Vihar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1703604993773!5m2!1sen!2sin"
+    },"Auroville":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Auroville, Pondicherry - 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31220.472591552487!2d79.78988010782784!3d12.004981943178496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53669380650fc5%3A0x5dcb6145f2140132!2sAuroville%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703605067510!5m2!1sen!2sin"
+    },"Marol":{
+        "Address":"201X, COMMERICAL COMPLEX, Near to Accenture signal, Marol, Mumbai, Maharastra- 610231",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30158.581784525297!2d72.8822285!3d19.11543150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c811c87303bf%3A0x16a07ca1b90dcc56!2sMarol%2C%20Andheri%20East%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1703605449470!5m2!1sen!2sin"
+    },"Khar west":{
+        "Address":"38-204/C,Anna nagar 4th Annnex, Opp.to VR Mall, Khar west, Mumbai, Maharastra - 620132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30168.172328929155!2d72.81776965295407!3d19.06279049455755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c904d1f59003%3A0x3fed21d7128f1fd4!2sKhar%2C%20Khar%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1703605551054!5m2!1sen!2sin"
+    }, "Swargate":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Swagate, Pune- 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7567.182177450306!2d73.86377500000002!3d18.50217245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c014271918c5%3A0xfa3ce63f0c494d3f!2sSwargate%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1703605711426!5m2!1sen!2sin"
+    }, "Bhavani Nagar":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Bhavani Nagar, Thane- 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15070.819037381563!2d72.97596560000002!3d19.208093449999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b938b674e4e1%3A0xecc97878cd52121a!2sBhavani%20Nagar%2C%20Azad%20Nagar%20I%2C%20Thane%20West%2C%20Thane%2C%20Maharashtra%20400601!5e0!3m2!1sen!2sin!4v1703605770220!5m2!1sen!2sin"
+    },"Gunadala":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Gunadala , Vijayawada , Andhra Pradesh - 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15300.510896377775!2d80.66491279999998!3d16.519648299999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35e52c1c8d733b%3A0x385df9cc705174f6!2sGunadala%2C%20Vijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1703606254004!5m2!1sen!2sin"
+    },"Tungalam":{
+        "Address":"981X, G.S.T Road, Opp.to Saravana stores, Tungalam , Vizag , Andhra Pradesh - 6000044",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15203.298864758643!2d83.19106249999999!3d17.70573865000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3968e63ce7b883%3A0x8095b19c75d62d!2sTungalam%2C%20Auto%20Nagar%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%20530012!5e0!3m2!1sen!2sin!4v1703606074228!5m2!1sen!2sin"
+    },"Gajuwaka":{
+        "Address":"23/21-AR, SPENCER PLAZA, Mount road, Gajwaka , Vizag , Andhra Pradesh - 6000132",
+        "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30410.119241722823!2d83.20679100000002!3d17.68494175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3969a99257eed1%3A0x8e84a34e9484f3bc!2sGajuwaka%2C%20Visakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1703606123299!5m2!1sen!2sin"
+    }
+},
+    
+    "city":{
+        "Chennai":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248760.4643101864!2d80.10255407864943!3d13.043166020150904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703597819422!5m2!1sen!2sin"
+        },
+        "Coimbatore":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d149030.41704773487!2d76.90000782969801!3d11.021871018960018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703596629679!5m2!1sen!2sin"
+        },
+        "Madurai":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62881.572186026235!2d78.0976696136598!3d9.925774171508026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0xdc955b7264f63933!2sMadurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703597872780!5m2!1sen!2sin"
+        },
+        "Trichy":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125405.45814802972!2d78.60701659501223!3d10.81739074524405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703597922798!5m2!1sen!2si"
+        },
+        "Mumbai":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482634.9354905898!2d72.55082211397007!3d19.081956486973237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1703603128935!5m2!1sen!2sin"
+        },
+        "Pune":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.17048589417!2d73.69780735425506!3d18.524544739119623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1703603228762!5m2!1sen!2sin"
+        },
+        "Thane":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120562.31423246075!2d72.91888577089169!3d19.213873458587983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8fcfe76fd59%3A0xcf367d85f7c50283!2sThane%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1703603167259!5m2!1sen!2sin"
+        }, "Pondicherry":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124913.6536506021!2d79.66603898275592!3d11.936256887325914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361ab8e49cfcf%3A0xcc6bd326d2f0b04e!2sPuducherry!5e0!3m2!1sen!2sin!4v1703602324092!5m2!1sen!2sin"
+        },
+        "Delhi":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.53358309105!2d76.76287405038954!3d28.643682929401233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1703602392526!5m2!1sen!2sin"
+        }, "Kochin":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502965.6257049505!2d75.97056575436334!3d9.982209396703357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703603464809!5m2!1sen!2sin"
+        }, "Thirisur":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251063.3976312386!2d75.9282071350853!3d10.51125134050183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ee15ed42d1bb%3A0x82e45aa016ca7db!2sThrissur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703603557178!5m2!1sen!2sin"
+        }, "Trivandrum":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252543.78992325955!2d76.75900561782156!3d8.499698151991522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb805bbcd47%3A0x15439fab5c5c81cb!2sThiruvananthapuram%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703603624074!5m2!1sen!2sin"
+        },"Amaravathi":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15296.360543740266!2d80.34738952423584!3d16.571970045865186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35915cb1b9dbcb%3A0xcbaa7b3fc3ba6553!2sAmaravathi%2C%20Andhra%20Pradesh%20522020!5e0!3m2!1sen!2sin!4v1703603698825!5m2!1sen!2sin"
+        },"Vijayawada":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122410.10463917667!2d80.5623096859474!3d16.510148587260637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35eff9482d944b%3A0x939b7e84ab4a0265!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1703603748128!5m2!1sen!2sin"
+        },"Vizag":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486416.95759998396!2d82.93222646011458!3d17.73839581304844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1703603799593!5m2!1sen!2sin"
+        }
+    },
+
+    "state":{
+        "Tamil Nadu":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8029795.619099754!2d68.67676430560579!3d10.67273190546492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0x559475cc463361f0!2sTamil%20Nadu!5e0!3m2!1sen!2sin!4v1703603903506!5m2!1sen!2sin"
+        },
+        "Kerala":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4016727.735649678!2d73.48953516193357!3d10.53326253018018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0812ffd49cf55b%3A0x64bd90fbed387c99!2sKerala!5e0!3m2!1sen!2sin!4v1703603858025!5m2!1sen!2sin"
+        },
+        "Pondicherry":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124913.6536506021!2d79.66603898275592!3d11.936256887325914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361ab8e49cfcf%3A0xcc6bd326d2f0b04e!2sPuducherry!5e0!3m2!1sen!2sin!4v1703602324092!5m2!1sen!2sin"
+        },
+        "Delhi":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.53358309105!2d76.76287405038954!3d28.643682929401233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1703602392526!5m2!1sen!2sin"
+        },
+        "Andhra Pradesh":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925013.4054269823!2d78.67333598032997!3d16.116219501074482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3546f8ae93d47f%3A0x33d1bbbe95adcd83!2sAndhra%20Pradesh!5e0!3m2!1sen!2sin!4v1703602440915!5m2!1sen!2sin"
+        },
+        "Maharastra":{
+            "url":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3853673.1262732903!2d73.05084398449095!3d19.39716274992597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e0!3m2!1sen!2sin!4v1703602478827!5m2!1sen!2sin"
+        }
+    }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Women</title>
+    <link rel="icon" href="/Images/logo2.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/CSS & Bootstrap/dresses.css">
+    <script src="/JS/western.js"></script>
+</head>
+<body>
+    <nav class="nav navbar navbar-light bg-white navbar-expand-md nav-purple shadow sticky-top">
+        <img src="/Images/Logo.png" class="rounded mx-4" alt="Logo" style="height: 50px; width: 50px;"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Home" title="toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Home">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item mr-5"><a href="#"><i class="bi bi-heart text-dark" style="font-size: 30px;" title="Wishlist"></i></a></li>
+                <li class="nav-item mr-5"><a href="#"><i class="bi bi-cart text-dark" style="font-size: 30px;" title="Cart"></i></a></li>
+                <li class="nav-item mr-5"><a href="profile.html"><i class="bi bi-person-circle text-dark" style="font-size: 30px;" title="Profile"></i></a></li>
+                <li class="nav-item mr-1" id="logout"><i class="bi bi-box-arrow-right text-dark" style="font-size: 30px;" title="Logout"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div id="offers" class="p-2">
+            <div class="text-center newSale">Hurry Up! Sale ends in : <span id="timer"></span></div>
+            <div class="text-center text-uppercase">Upto 70% Offer + Extra 5% offer on Prepaid orders</div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row" style="height: 100vh;">
+                <div class="col-3" >
+                    <ol class="breadcrumb" style="width: 75%;">
+                        <li class="breadcrumb-item"><a href="landing.html" class="breadcrumb-link">Home</a></li>
+                        <li class="breadcrumb-item">Western Wear</li>
+                    </ol>
+                    <div class="display-4">Categories</div>
+                    <ul class="nav flex-column ml-3 my-3" id="categoriesWhole">
+                        <li class="nav-item">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="tops" name="categories" value="Tops">
+                            <label for="tops" class="form-check-label" >Tops & Shirts</label>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="tshirts" name="categories" value="T-shirt">
+                                <label for="tshirts" class="form-check-label">T-Shirts</label>
+                              </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="sweatshirts" name="categories" value="Sweatshrit">
+                                <label for="sweatshirts" class="form-check-label">Sweatshirts</label>
+                              </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="pants" name="categories" value="Pants">
+                                <label for="pants" class="form-check-label">Trousers & Pants</label>
+                              </div>
+                        </li>
+                      </ul>
+                      <div class="display-4 mt-5 mb-2">Price Range</div>
+                        <input type="range" id="myRange" max="8000" min="100" step="100" style="width:80%;" value="8000" title="Price Range"> 
+                        <div class="text-center" id="myValue" style="color: rgb(241, 23, 114);width: 80%;"></div>
+
+                      <div class="display-4 mt-5 mb-2">Pick the Best</div>
+                      <button type="button" id="rated" class="btn btn-success mb-2">Top Rated <i class="bi bi-star-fill"></i></button>
+                      <button type="button" id="sale" class="btn btn-success mb-2">Top Sale <i class="bi bi-cup-hot-fill"></i></button>
+                      <button type="button" id="offer" class="btn btn-success mb-2">Top Offer<i class="bi bi-fire"></i></button>
+                </div>
+                <div class="col">
+                    <div id="heading" class="text-center display-4 my-3">Western Wear</div>
+                    <p class="display-3">Elegant shrugs, modish cold shoulder tops, sassy skater dresses, Fashion Women's nifty range of western wear for women is all encompassing. The chic curated collection is brought to you by powerhouse brands such as Marks & Spencer, Vero Moda & Pantaloons.</p>
+                    <div class="d-flex justify-content-around">
+                        <div class="btn-group">
+                            <button class="btn" id="3col"><i class="bi bi-square" title="3 Column Grid"></i><i class="bi bi-square"></i><i class="bi bi-square"></i></button>
+                            <!--<button disabled class="btn text-dark"><i class="bi bi-layout-split"></i></button>-->
+                            <button class="btn btn-info" disabled id="4col" title="4 Column Grid"><i class="bi bi-square"></i><i class="bi bi-square"></i><i class="bi bi-square"></i><i class="bi bi-square"></i></button>
+                        </div>
+                       <div>
+                        <select name="orderBy" id="orderBy" title="Sorting">
+                            <option value="OrderBy" disabled>SortBy</option>
+                            <option value="A-Z">A-Z</option>
+                            <option value="Z-A">Z-A</option>
+                        </select>
+                        <a href="#" class="ml-2" id="clear" >Clear Filters</a>
+                       </div>
+                    </div>
+                    <div class="row my-5" id="items">
+                        
+                    </div>
+                    <div id="brand-feature" class="p-4 text-justify">
+                        Buy Women's Western Wear Online
+
+Give your wardrobe a makeover this season by shopping the latest trends in women’s wear on Fashion Women! The online fashion store for the modern day woman who likes to flaunt her own style, Fashion Women has a wide range of clothing and accessories for women in a plethora of styles. Check out our women’s western wear online to get the trendiest clothing from the best International and Indian brands! Wherever you need to be, Fashion Women has the perfect outfit for you in its collection. If formal wear is what you are looking at, check out Fashion Women’s range of formal shirts and smart tops. Go for a simple and classy look with solids or shake things up a little with abstract prints. Check out detailing like concealed plackets, pin tucks, tie-up collars and others to add a dash of style to your corporate chic avatars. To team with your shirts, we have smart formal trousers and formal skirts in different styles and fits. We even have chic formal dresses that you can carry off at work. To complete your looks, check out the stylish blazers and jackets in our collection! There, you are all set to rock the Monday morning look.
+
+If casual wear is what brought you here today, you are in for a treat. We have every kind and sort available in women’s casual wear at Fashion Women. We have T-shirts and tops for women that are in tune with the latest trends in fashion. Graphic prints, off-shoulder styles, crop effects and more… you’ll love our styles. We have women’s jeans in every style that you can imagine – distressed, acid washed, super skinny, tapered… all of them are here. If you are looking for trousers, check out the denim trousers, palazzos, ankle length trousers, culottes, dhoti pants and more here! We have leggings and jeggings too to keep you comfy and in style.
+
+If you want to stand out from the crowd at that special event, we have an interesting collection for you. Browse through lace tops, fit & flare dresses, cute playsuits, elegant turtlenecks, fabulous jackets and more to get heads turning.
+
+If you want to sweat it out at the gym, we have a range of active wear so you can do that in style. Tees, tops, track pants, shorts and other gym wear for women can be found on Fashion Women. We even have a great range of swimsuits to hit the water with!
+
+We have flirty skirts and chic shorts, cute jumpsuits and sassy dresses, charming cardigans and laidback hoodies, go get looking. To wrap it up, we have cool jackets & coats and shrugs too!
+
+Pleasantly surprised at all that we have? Wait till you hear about our brands! Kira Plastinina, Only, Levi’s, MDS, Puma, Vero Moda and tons of other cool international and Indian brands are available for your choosing. Our very own brand, Fashion Women, too offers some of the season’s trendiest clothes. So go ahead and get picking the perfect fits for your wardrobe!
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-around mb-4">
+                        <div>
+                            <img src="/Images/Exchange.png" alt="exchange" class="img-fluid d-block">
+                            <div>EASY EXCHANGE</div>
+                        </div>
+                        <div>
+                            <img src="/Images/Handpicked.png" alt="handpicked" class="img-fluid d-block">
+                            <div>100% HANDPICKED</div>
+                        </div>
+                        <div>
+                            <img src="/Images/Quality2.png" alt="Quality" class="img-fluid d-block">
+                            <div>ASSURED QUALITY</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div style="background-color: #2c4152;">
+                        <img src="/Images/Payments.png" alt="payments" class="img-fluid d-block" >
+                    </div>
+                   <!--- <div id="navigation" class="d-flex justify-content-around mb-5">
+                        <a href="#" class="btn btn-primary" type="button" id="back"><span><i class="bi bi-arrow-left"></i> Previous</span></a>
+                        <div id="pageNo" class="display-4"></div>
+                        <a href="#" class="btn btn-primary float-right" type="button" id="next"><span>Next <i class="bi bi-arrow-right"></i></span></a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var myRange = document.querySelector('#myRange');
+    var myValue = document.querySelector('#myValue');
+    var myUnits = '₹';
+    myValue.innerHTML =  myUnits+"."+myRange.value;
+  myRange.oninput =function(){
+    myValue.innerHTML =  myUnits+"."+myRange.value;
+  };
+    </script>
+</body>
+</html>
